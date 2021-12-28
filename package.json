@@ -1,0 +1,17 @@
+{
+  "name": "react-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mjkang0987/react-clone.git",
+  "author": "mjkang0987 <snowdrop1202@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start"
+  }
+}
